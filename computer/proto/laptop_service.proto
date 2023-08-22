@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package computer;
+
+option go_package = "github.com/DitoAdriel99/grpc/computer/proto";
+
+import "laptop.proto";
+
+message CreateLaptopRequest{
+  Laptop laptop = 1;
+}
+
+message CreateLaptopResponse{
+  string id = 1;
+}
+
+service LaptopService{
+  rpc CreateLaptop(CreateLaptopRequest) returns (CreateLaptopResponse);
+}

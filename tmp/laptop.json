@@ -1,0 +1,58 @@
+{
+  "id":  "7a7d2c42-db2c-413b-ad15-613152a80da6",
+  "brand":  "Dell",
+  "name":  "Latitude",
+  "cpu":  {
+    "brand":  "AMD",
+    "name":  "Ryzen 7 PRO 2700U",
+    "number_cores":  2,
+    "number_threads":  2,
+    "min_ghz":  2.4340491184069744,
+    "max_ghz":  4.821136291642105
+  },
+  "memory":  null,
+  "gpus":  [
+    {
+      "brand":  "Nvidia",
+      "name":  "GTX 1660-Ti",
+      "min_ghz":  1.2061770304426898,
+      "max_ghz":  1.4413585241902338,
+      "memory":  {
+        "value":  4,
+        "unit":  "GIGABYTE"
+      }
+    }
+  ],
+  "storages":  [
+    {
+      "driver":  "SSD",
+      "memory":  {
+        "value":  659,
+        "unit":  "GIGABYTE"
+      }
+    },
+    {
+      "driver":  "HDD",
+      "memory":  {
+        "value":  3,
+        "unit":  "TERABYTE"
+      }
+    }
+  ],
+  "screen":  {
+    "size_inch":  14.447828,
+    "resolution":  {
+      "width":  2972,
+      "height":  1672
+    },
+    "panel":  "IPS",
+    "multitouch":  false
+  },
+  "keyboard":  {
+    "layout":  "AZERTY",
+    "backlit":  true
+  },
+  "weight_kg":  1.133539805920571,
+  "price_usd":  2044.7382776509512,
+  "release_year":  2015
+}

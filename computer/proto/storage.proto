@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package computer;
+
+option go_package = "github.com/DitoAdriel99/grpc/computer/proto";
+
+import "memory.proto";
+
+message Storage{
+  enum Driver {
+    UNKNOWN = 0;
+    HDD = 1;
+    SSD =2;
+  }
+
+  Driver driver = 1;
+  Memory memory = 2;
+}

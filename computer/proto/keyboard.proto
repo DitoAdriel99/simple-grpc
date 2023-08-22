@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package computer;
+
+option go_package = "github.com/DitoAdriel99/grpc/computer/proto";
+
+message Keyboard{
+  enum Layout {
+    UNKNOWN = 0;
+    QWERTY = 1;
+    QWERTZ = 2;
+    AZERTY = 3;
+  }
+
+  Layout layout = 1;
+  bool backlit = 2;
+}
